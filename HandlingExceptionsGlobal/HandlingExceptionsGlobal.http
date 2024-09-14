@@ -1,0 +1,6 @@
+@HandlingExceptionsGlobal_HostAddress = http://localhost:5123
+
+GET {{HandlingExceptionsGlobal_HostAddress}}/exception/
+Accept: application/json
+
+###

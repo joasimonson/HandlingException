@@ -1,0 +1,6 @@
+@HandlingExceptionsMiddleware_HostAddress = http://localhost:5273
+
+GET {{HandlingExceptionsMiddleware_HostAddress}}/exception/
+Accept: application/json
+
+###

@@ -1,0 +1,9 @@
+@HandlingExceptionsDomain_HostAddress = http://localhost:5003
+
+GET {{HandlingExceptionsDomain_HostAddress}}/domain-request/2024-09-14/true
+Accept: application/json
+
+###
+
+GET {{HandlingExceptionsDomain_HostAddress}}/domain-request/2024-09-14/false
+Accept: application/json
